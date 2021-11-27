@@ -16,7 +16,7 @@ const Item = ({ nombre, edad, idioma='español' }: ItemProps) => {
 
     return (
         <div onClick={clickPersona}>
-            <p>Ejemplo : Moises</p>
+            <p>Ejemplo</p>
             <p>Persona: {nombre}</p>
             <p>Edad: {edad}</p>
             <p>Idioma: {idioma}</p>
