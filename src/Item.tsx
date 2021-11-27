@@ -22,6 +22,7 @@ const Item = ({ nombre, edad, idioma='español' }: ItemProps) => {
             <p>Idioma: {idioma}</p>
             <div>{contador}</div>
             <div>Moises</div>
+            <div>Jonathan</div>
         </div>
     )
 }
