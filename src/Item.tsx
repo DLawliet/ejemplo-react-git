@@ -16,7 +16,9 @@ const Item = ({ nombre, edad, idioma='español' }: ItemProps) => {
 
     return (
         <div onClick={clickPersona}>
-            Persona: {nombre} - Edad: {edad} - Idioma: {idioma}
+            <p>Persona: {nombre}</p>
+            <p>Edad: {edad}</p>
+            <p>Idioma: {idioma}</p>
             <div>{contador}</div>
         </div>
     )
